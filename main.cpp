@@ -84,7 +84,7 @@ void astar(string initial_state) {
 
 int main() {
     string initial_state;
-    cout << "Introduzca una cadena de 9 numeros y sin espacios: ";
+    cout << "Introduzca una cadena de 9 numeros sin espacios: ";
     cin >> initial_state;
     astar(initial_state);
     return 0;
